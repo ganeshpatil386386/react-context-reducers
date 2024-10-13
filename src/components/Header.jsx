@@ -6,6 +6,7 @@ import {
   Nav,
   Dropdown,
 } from "react-bootstrap";
+import { FaShoppingCart } from "react-icons/fa";
 const Header = () => {
   return (
     <Navbar bg='dark' variant='dark'>
@@ -23,7 +24,7 @@ const Header = () => {
         <Nav>
           <Dropdown>
             <Dropdown.Toggle>
-              {/* <FaShoppingCart color='white' fontSize='25px' /> */}
+              <FaShoppingCart color='white' fontSize='25px' />
               <Badge>{10}</Badge>
             </Dropdown.Toggle>
 
