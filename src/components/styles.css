@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+}
+.prouctContainer {
+  display: flex;
+  width: 78%;
+  padding: 20%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.filetrs {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 10px;
+  height: 86vh;
+}
+
+.filetrs > span {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-style: 30px;
+}
